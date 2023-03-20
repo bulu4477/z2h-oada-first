@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum TokenType",
+						"name": "tokenType",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "version",
+						"type": "uint256"
+					}
+				],
+				"name": "TokenCreated",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC20Token.sol_flattened.sol": "BaseToken"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC20Token.sol_flattened.sol": {
+			"keccak256": "0xb332bc4c4b17a41e21a805b16a9bdf2961fffede9c1de27be262737f27bc09a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49157d56741e0916196029880bd52cd2bdb3e419bc8181f09cec4b8b832b1a07",
+				"dweb:/ipfs/QmcUk5GpgMWcpKZMpovFDBKHiaBEaoBewLtVg9KdqKZ4B6"
+			]
+		}
+	},
+	"version": 1
+}

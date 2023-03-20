@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lpt",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "stake",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"balanceOf(address)": {
+					"details": "返回账户余额",
+					"params": {
+						"account": "账户地址"
+					},
+					"returns": {
+						"_0": "余额"
+					}
+				},
+				"stake(uint256)": {
+					"details": "把shushi抵押到Boardroom",
+					"params": {
+						"amount": "质押数量"
+					}
+				},
+				"totalSupply()": {
+					"details": "返回总量",
+					"returns": {
+						"_0": "总量"
+					}
+				},
+				"withdraw(uint256)": {
+					"details": "赎回LPToken",
+					"params": {
+						"amount": "赎回数量"
+					}
+				}
+			},
+			"stateVariables": {
+				"_balances": {
+					"details": "余额映射"
+				},
+				"_totalSupply": {
+					"details": "质押总量"
+				}
+			},
+			"title": "LP质押合约",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"lpt()": {
+					"notice": "GoCash LP Token合约地址"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/REC20Stacking.sol": "LPTokenWrapper"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/REC20Stacking.sol": {
+			"keccak256": "0x76d5f09f435c1d2000b2215544a8f6e001c8a44513694658cd0a37b6cb47f05a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://14057c5b0fe8b92838bdecd49386478d63dc7f0e3d39c62945d9efb6bca145cf",
+				"dweb:/ipfs/QmZHYHEgP6uUWouUuwForgipPNFJDy6ULi5aHfz8AVvvRy"
+			]
+		}
+	},
+	"version": 1
+}

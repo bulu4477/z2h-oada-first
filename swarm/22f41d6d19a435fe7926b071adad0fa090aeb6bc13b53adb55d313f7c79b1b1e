@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/REC20Stacking.sol": "Address"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/REC20Stacking.sol": {
+			"keccak256": "0xb7ee04dcf5d2231a8bbb4deead791a8112b612227de1daffdc2d1eb74dc34c79",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://6be1f0d212d8fdb5ee033c464865025db598cd86889c263e9c3342f86e75df30",
+				"dweb:/ipfs/Qmeieu2GknjCD7wmDhCzgyfWXTxsumHEWjQNpKEDLLwR5z"
+			]
+		}
+	},
+	"version": 1
+}
